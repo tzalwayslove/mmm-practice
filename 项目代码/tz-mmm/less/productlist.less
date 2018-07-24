@@ -1,0 +1,72 @@
+@import "var";
+
+
+.mm-prolist{
+  background-color: #fff;
+  & li a {
+   display: block;
+   width: 100%;
+   height:230/@rem;
+   .img{
+     float: left;
+     width: 240/@rem;
+     height: 100%;
+     padding-left:30/@rem;
+     padding-top:28/@rem;
+     box-sizing: border-box;
+     img{
+       width: 80%;
+       height: 80%;
+     }
+   }
+   .right{
+     overflow: hidden;
+     padding-top:20/@rem;
+     h3{
+       font-size:28/@rem;
+     }
+     .price{
+       font-size:26/@rem;
+       color: red;
+       height: 76/@rem;
+       line-height:76/@rem;
+
+     }
+     .comment{
+       color: #9fa09f;
+       font-size:26/@rem;
+       & span:nth-child(1){
+         margin-right: 8/@rem;
+       }
+     }
+   }
+ }
+  .mm-pagination{
+    height: 80/@rem;
+    padding-top:10/@rem;
+    border-top:10/@rem solid #f1f1f1;
+    button{
+      height: 60/ @rem;
+      width: 166/@rem;
+      font-size:32/@rem;
+      &:first-child{
+        margin-left:40/@rem;
+        float: left;
+      }
+      &:last-child{
+        float: right;
+        margin-right:40/@rem;
+    }
+    }
+    select{
+      width: 120/@rem;
+      height:60/@rem;
+      float: left;
+      margin-left:80/@rem;
+      font-size:28/@rem;
+      box-sizing: border-box;
+      text-align: center;
+      padding-left:8/@rem;
+    }
+  }
+}

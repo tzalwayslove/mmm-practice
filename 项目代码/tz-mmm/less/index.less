@@ -1,0 +1,168 @@
+@import "var.less";
+/**搜索开始**/
+.mmindex-search {
+  height: 100/@rem;
+  width: 100%;
+  background-color: #fff;
+  input {
+    width: 570/@rem;
+    height: 60/@rem;
+    border-radius: 20/@rem;
+    background-color: #f1f1f1;
+    outline: none;
+    border: 1px solid #f1f1f1;
+    box-sizing: border-box;
+    margin: 20/@rem 0 0 20/@rem;
+    font-size: 26/@rem;
+    padding-left: 40/@rem;
+  }
+  input::placeholder {
+    color: #777;
+  }
+  button {
+    width: 130/@rem;
+    height: 60/@rem;
+    background-color: @headerbgc;
+    border: none;
+    border-radius: 25/@rem;
+    margin: 20/@rem 20/@rem 0 0;
+    outline: none;
+    font-size: 26/@rem;
+    color: #fff;
+  }
+}
+
+/**搜索结束**/
+/**菜单栏开始**/
+.mmindex-menu {
+  background-color: #fff;
+  margin-top: 20/@rem;
+  padding: 48/@rem 10/@rem 0;
+
+  a {
+    display: block;
+    width: 102/@rem;
+    height: 140/@rem;
+    padding: 0 38/@rem 24/@rem;
+    box-sizing: content-box;
+    text-decoration: none;
+    color: #000;
+    img {
+      width: 100/@rem;
+      height: 100/@rem;
+    }
+    p {
+      font-size: 22/@rem;
+      text-align: center;
+    }
+  }
+}
+
+/**菜单栏结束**/
+/**折扣开始**/
+.mm-discount{
+  margin-top:10/@rem;
+  .head{
+    background-color: @headerbgc;
+    height:70/@rem;
+     span:first-child{
+      padding-left:22/@rem;
+      color: #fff;
+      font-size:22/@rem;
+      line-height:70/@rem;
+    }
+    & img:first-child{
+      width: 44/@rem;
+      height:44/@rem;
+      margin: 16/@rem 20/@rem 0 0;
+      }
+  }
+  .content{
+    display: block;
+    text-decoration: none;
+    height: 254/@rem;
+    background-color: #fff;
+    margin-bottom:4/@rem;
+    position: relative;
+    .left{
+      width: 236/@rem;
+      height: 100%;
+      box-sizing: border-box;
+      img{
+        width: 80%;
+        height: 80%;
+        padding: 20/@rem;
+      }
+    }
+    .right{
+      overflow:hidden;
+      p:nth-child(1){
+        margin-top:34/@rem;
+        font-size:32/@rem;
+        color: #000;
+        span:last-child{
+          color:@headerbgc;
+        }
+      }
+      p:last-child{
+        position: absolute;
+        bottom:40/@rem;
+        font-size: 24/@rem;
+        color: #ccc;
+        width: 500/@rem;
+        span:last-child{
+       position: absolute;
+          bottom:0/@rem;
+          right:0/@rem;
+          i{
+            font-size: 24/@rem;
+          }
+      }
+      }
+    }
+  }
+}
+/**折扣结束**/
+
+/**更多折扣信息开始**/
+.mm-more{
+  text-align: center;
+  background-color: #fff;
+  height:90/@rem;
+  width: 100%;
+  overflow: hidden;
+  a{
+    display: block;
+    height: 60/@rem;
+    width:709/@rem;
+    color: #000;
+    text-decoration: none;
+    font-size:24/@rem;
+    line-height:60/@rem;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    margin: 10/@rem auto;
+  }
+}
+/**更多折扣信息结束**/
+
+/**折扣开始**/
+.mm-rank{
+  margin-top:10/@rem;
+  .head{
+    background-color: @headerbgc;
+    height:70/@rem;
+    span:first-child{
+      padding-left:22/@rem;
+      color: #fff;
+      font-size:22/@rem;
+      line-height:70/@rem;
+    }
+    & img:first-child{
+      width: 44/@rem;
+      height:44/@rem;
+      margin: 16/@rem 20/@rem 0 0;
+    }
+  }
+}
+/**折扣结束**/

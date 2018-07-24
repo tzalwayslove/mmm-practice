@@ -1,0 +1,121 @@
+@import "var";
+.public-header{
+  background-color: red;
+}
+
+/**nav**/
+nav{
+  height: 82/@rem;
+  background-color: #fff;
+  margin-bottom:8/@rem;
+}
+.current{
+  color: red;
+  border-bottom: 3px solid red;
+}
+.wrapper{
+  overflow: hidden;
+  position: relative;
+  ul{
+
+    li{
+      float: left;
+      font-size:28/@rem;
+      line-height:82/@rem;
+      width: 120/@rem;
+      text-align: center;
+    }
+  }
+}
+
+section{
+  .show{
+    height: 300/@rem;
+    background-color: #fff;
+    margin-bottom:10/@rem;
+    .left{
+      float: left;
+      width:280/@rem;
+      padding: 10/@rem;
+      img{
+        width: 260/@rem;
+        height:260/@rem;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+    .right{
+      overflow: hidden;
+      padding:10/@rem ;
+      p{
+        font-size:32/@rem;
+        &:nth-child(1){
+          font-weight:bold;
+          padding-bottom: 10/@rem;
+        }
+        &:nth-child(2){
+          color: red;
+          font-style: normal;
+          del{
+            color: gray;
+            padding-left:30/@rem;
+          }
+        }
+        &:last-child{
+          font-size:28/@rem;
+          padding-top:20/@rem;
+          & a:first-child{
+            border: 1px dashed red;
+            padding: 5/@rem;
+            color:red ;
+            margin-right:50/@rem;
+          }
+          & a:last-child{
+            background-color: red;
+            color: #fff;
+            height: 50/@rem;
+            width:120/@rem;
+            line-height:50/@rem;
+            text-align: center;
+            display: inline-block;
+          }
+        }
+      }
+      .bar{
+        padding-top:30/@rem;
+        font-size:24/@rem;
+        i{
+          vertical-align: bottom;
+          margin-right:30/@rem;
+          width: 166/@rem;
+          border: 4px solid red;
+          display: inline-block;
+          color: #fff;
+          text-align: center;
+          background-color: #ffb7b7;
+          border-radius:15%;
+          height: 26/@rem;
+          position: relative;
+          em{
+            width: 120/@rem;
+            display: block;
+            background-color: red;
+            border-radius: 15%;
+            height:26/@rem;
+
+          }
+          span{
+            color: #fff;
+            position: absolute;
+            top:-14%;
+            left: 30%;
+          }
+        }
+         b{
+           vertical-align: bottom;
+           color: red;
+         }
+      }
+    }
+  }
+}

@@ -1,0 +1,135 @@
+section {
+  background-color: #fff;
+}
+h4 {
+  text-align: center;
+  padding: 0.64rem 0.21333333rem;
+  font-size: 0.68266667rem;
+  font-weight: normal;
+}
+section .thum {
+  position: relative;
+  height: 10.66666667rem;
+}
+section .thum img {
+  width: 80%;
+  height: 80%;
+  display: block;
+  margin: 0 auto;
+}
+section .thum .mm-sc {
+  color: #fff;
+  width: 2.13333333rem;
+  height: 2.13333333rem;
+  position: absolute;
+  bottom: 0.85333333rem;
+  right: 0.85333333rem;
+  border-radius: 50%;
+  background-color: green;
+  display: block;
+  font-size: 0.512rem;
+  text-align: center;
+  line-height: 2.13333333rem;
+}
+section .mm-list {
+  height: 1.408rem;
+  line-height: 1.408rem;
+  font-size: 0.512rem;
+  text-align: center;
+}
+section .mm-list a {
+  float: left;
+  color: #fff;
+  width: 33%;
+  border: 1px solid #bb3f02;
+}
+section .mm-list a:nth-child(1) {
+  background-color: #ff9c18;
+}
+section .mm-list a:nth-child(2) {
+  background-color: #ffca38;
+}
+section .mm-list a:nth-child(3) {
+  background-color: #ffca38;
+}
+section table {
+  background-color: #fff;
+  height: 1.87733333rem;
+  box-sizing: border-box;
+  font-size: 0.59733333rem;
+}
+section table td:nth-child(1) {
+  width: 10%;
+  padding-top: 0.512rem;
+  padding-left: 0.384rem;
+  margin: 0;
+}
+section table td:nth-child(1) img {
+  width: 0.68266667rem;
+  height: 0.68266667rem;
+}
+section table td:nth-child(2) {
+  width: 40%;
+  text-align: left;
+  line-height: 0.85333333rem;
+  height: 0.85333333rem;
+}
+section table td:nth-child(2) a {
+  display: block;
+  padding-top: 0.42666667rem;
+}
+section table .red {
+  color: red;
+  line-height: 0.85333333rem;
+  height: 0.85333333rem;
+  padding-top: 0.42666667rem;
+  text-align: right;
+}
+section table td:nth-child(4) {
+  width: 2.34666667rem;
+  height: 1.06666667rem;
+  padding-top: 0.42666667rem;
+}
+section table td:nth-child(4) span {
+  width: 2.34666667rem !important;
+  height: 1.06666667rem !important;
+  line-height: 1.06666667rem !important;
+  display: block !important;
+  font-size: 0.59733333rem !important;
+}
+section .note {
+  font-size: 0.512rem;
+  color: #888;
+  padding: 0.34133333rem 0.42666667rem;
+  line-height: 0.768rem;
+  background-color: #fff;
+  margin-top: 2px;
+}
+.mm-comment {
+  background-color: #fff;
+  border-top: 4px solid #666;
+  text-align: center;
+}
+.mm-comment .top {
+  height: 1.32266667rem;
+  line-height: 1.32266667rem;
+  background-color: #dbdbdb;
+  font-size: 0.59733333rem;
+}
+.mm-comment .content {
+  background-color: #fff;
+  font-size: 0.59733333rem;
+  border-bottom: 2px solid #dbdbdb;
+  text-align: left;
+  padding: 0.64rem 0.34133333rem 0.42666667rem 0.34133333rem;
+}
+.mm-comment .content .top {
+  background-color: #fff;
+  height: 1.74933333rem;
+  box-sizing: border-box;
+}
+.mm-comment .content .top p {
+  font-size: 0.512rem;
+  color: #ccc;
+  line-height: 0.68266667rem;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<body>
+<head>
+  <meta charset="UTF-8">
+  <title>productlist</title>
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/productlist.css">
+  <link href="fonts/iconfont.css" rel="stylesheet" type="text/css"/>
+  <link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+  <!--[if IE 7]>
+  <link href="fonts/font-awesome-ie7.min.css" rel="stylesheet" type="text/css"/>
+  <![endif]-->
+  <script src="js/common.js"></script>
+</head>
+<!--头部开始-->
+<meta charset="UTF-8">
+<header class="public-header">
+  <a class="left fl" href="index.html">
+    <img src="images/header_logo.png">
+  </a>
+  <a class="right fr">
+    <img src="images/header_app.png">
+  </a>
+</header>
+<!--头部结束-->
+<!--搜索开始-->
+<div class="mmindex-search">
+  <input type="text" placeholder="请输入你想比价的商品">
+  <button class="fr">搜索</button>
+</div>
+<!--搜索结束-->
+<!--三级菜单开始-->
+<div class="three-menu">
+  <div class="three-menu-left"></div>
+  <button>筛选</button>
+</div>
+<!--三级菜单结束-->
+<!--渲染开始-->
+<section class="mm-prolist">
+  <ul>
+  
+  </ul>
+  <div class="mm-pagination">
+
+  </div>
+</section>
+<!--渲染结束-->
+
+
+
+
+
+
+
+
+
+
+<!--三级菜单模板开始-->
+<script type="text/html" id="mm-thmenu">
+  {{each o.result  v i}}
+  <ul>
+    <li><a href="index.html">首页</a></li>
+    <li>></li>
+    <li><a href="category.html">全部分类</a></li>
+    <li>></li>
+    <li><a href="#">{{v.category}}</a></li>
+  </ul>
+  {{/each}}
+</script>
+<!--三级菜单模板结束-->
+<!--列表模板开始-->
+<script type="text/html" id="mm-list">
+  {{each result v i}}
+  <li>
+    <a href="getproduct.html?productId={{v.productId}}">
+      <div class="img">
+       {{@v.productImg}}
+      </div>
+      <div class="right">
+        <h3>{{v.productName}}</h3>
+        <p class="price">{{v.productPrice}}</p>
+        <p class="comment">
+          <span>{{v.productQuote}}</span>
+          <span>{{v.productCom}}</span>
+        </p>
+      </div>
+    </a>
+  </li>
+  
+  {{/each}}
+</script>
+
+<!--列表模板结束-->
+
+<!--分页开始-->
+<script type="text/html" id="mm-pagenation">
+ 
+  <button class="mm-pre">上一页</button>
+  <select>
+  
+  <% for(var i = 0; i < total; i++) { %>
+    {{if i==(page-1)}}
+      <option value="{{i+1}}" selected>{{i+1}}/{{ total }}</option>
+    {{/if}}
+    <option value="{{i+1}}">{{i+1}}/{{ total }}</option>
+  <% } %>
+  
+  </select>
+  <button class="mm-next">下一页</button>
+</script>
+
+<!--分页结束-->
+
+
+
+
+<!--引包-->
+<script src="./lib/jquery/jquery.min.js"></script>
+<script src="./lib/artTemplate/template-web.js"></script>
+<script src="./js/productlist.js"></script>
+<script src="./js/public.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>getproduct</title>
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/getproduct.css">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/common.js"></script>
+  <link href="fonts/iconfont.css" rel="stylesheet" type="text/css"/>
+  <link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+  <!--[if IE 7]>
+  <link href="fonts/font-awesome-ie7.min.css" rel="stylesheet" type="text/css"/>
+  <![endif]-->
+</head>
+<body>
+<!--头部开始-->
+<header class="public-header">
+  <a class="left fl" href="index.html">
+    <img src="images/header_logo.png">
+  </a>
+  <a class="right fr">
+    <img src="images/header_app.png">
+  </a>
+</header>
+<!--头部结束-->
+<!--搜索开始-->
+<div class="mmindex-search">
+  <input type="text" placeholder="请输入你想比价的商品">
+  <button class="fr">搜索</button>
+</div>
+<!--搜索结束-->
+<!--三级菜单开始-->
+<div class="three-menu">
+  <div class="three-menu-left"></div>
+  <button>筛选</button>
+</div>
+<!--三级菜单结束-->
+
+
+<!--渲染开始-->
+<section>
+  <div class="top"></div>
+  <div class="note">
+    * 实际价格以各网站列出的实时售价为准，我们提供的价格可能有数小时至数日的延迟。
+  </div>
+</section>
+<!--渲染结束-->
+<!--评论开始-->
+<div class="mm-comment">
+  <div class="top">网友评价</div>
+</div>
+<!--评论结束-->
+
+<!--三级菜单模板开始-->
+<script type="text/html" id="mm-thmenu">
+  {{each info v i}}
+  <ul>
+    <li><a href="index.html">首页</a></li>
+    <li>></li>
+    <li><a href="category.html">全部分类</a></li>
+    <li>></li>
+    <li><a href="#">{{name}}</a></li>
+  </ul>
+  {{/each}}
+</script>
+<!--三级菜单模板结束-->
+<!--更多优惠信息开始-->
+<div class="mm-more">
+  <a  href="#">更多优惠信息>></a>
+</div>
+
+<!--更多优惠信息结束-->
+
+<!--底部开始-->
+<footer>
+  <div class="list">
+    <a href="#">登录</a>
+    <a href="#">注册</a>
+    <a href="#">
+      返回顶部
+    </a>
+  </div>
+  <p>
+    <span>手机APP下载</span>
+    <span>慢慢买手机版</span>
+    <span>--掌上比价平台</span>
+  </p>
+  <p>m.manmanbuy.com</p>
+</footer>
+<!--底部结束-->
+
+<!--渲染开始-->
+<script type="text/html" id="mm-section">
+  {{each result v i}}
+    <h4>{{v.productName}}</h4>
+  <div class="thum">
+    {{@v.productImg}}
+    <a class="mm-sc" href="#">收藏</a>
+  </div>
+  <div class="mm-list">
+    <a href="#">比价购买</a>
+    <a href="#">产品参数</a>
+    <a href="#">评价</a>
+  </div>
+    {{@v.bjShop}}
+  {{/each}}
+</script>
+<!--渲染结束-->
+
+
+<!--评论模板开始-->
+<script type="text/html" id="mm-content">
+  {{each result v i}}
+  <div class="content">
+    <div class="top">
+      <div class="fl">
+        {{v.comName}}
+      </div>
+      <div class="fr">
+        <p>{{v.comTime}}</p>
+        <p>{{v.comFrom}}</p>
+      </div>
+    </div>
+    <p>{{v.comContent}}</p>
+  </div>
+  {{/each}}
+</script>
+<!--评论模板结束-->
+
+<!--引包-->
+<script src="./lib/jquery/jquery.min.js"></script>
+<script src="./lib/artTemplate/template-web.js"></script>
+<script src="./js/getproduct.js"></script>
+<script src="./js/public.js"></script>
+</body>
+</html>

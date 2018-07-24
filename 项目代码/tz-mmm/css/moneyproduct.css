@@ -1,0 +1,143 @@
+.public-header .word {
+  padding-left: 5.76rem;
+}
+section {
+  background-color: #fff;
+  padding-bottom: 1.28rem;
+}
+section .itc {
+  padding: 0 0.42666667rem;
+}
+section .itc h3 {
+  font-size: 0.72533333rem;
+  font-weight: normal;
+  height: 2.13333333rem;
+  line-height: 2.13333333rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+section .itc p {
+  color: grey;
+  font-size: 0.59733333rem;
+}
+section .itc p span {
+  margin-right: 0.21333333rem;
+}
+section .itc .con {
+  font-size: 0.68266667rem;
+  padding: 0.85333333rem 0 0 0.42666667rem;
+}
+section .itc .con div {
+  width: 9.38666667rem;
+}
+section .itc .con img {
+  width: 4.69333333rem;
+  height: 5.76rem;
+  float: right;
+}
+section .itc .pro {
+  color: #000;
+  padding-top: 0.64rem;
+}
+section .itc .big {
+  height: 14.93333333rem;
+  width: 14.93333333rem;
+}
+section .itc .big img {
+  display: block;
+  margin: 0.85333333rem auto;
+  height: 80%;
+  width: 80%;
+}
+section .itc #disstorck {
+  width: 6.4rem;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 0.59733333rem;
+  border: 1px solid #000;
+  box-shadow: 2px 2px 6px 6px #ccc;
+}
+section .itc #disstorck li {
+  padding: 0.21333333rem 0.85333333rem;
+  border-bottom: 4px dashed #000;
+}
+section .itc #disstorck li strong {
+  float: right;
+  color: orange;
+}
+section .itc .mm-mm {
+  display: block;
+  width: 14.208rem;
+  height: 1.28rem;
+  color: #fff;
+  background-color: #ff9e30;
+  border-radius: 0.21333333rem;
+  text-align: center;
+  margin: 0.42666667rem auto;
+}
+section .itc .img {
+  width: 14.93333333rem;
+  height: 5.76rem;
+  display: block;
+  margin: 0 auto;
+}
+section .itc .tit {
+  font-size: 0.59733333rem;
+  padding-top: 0.42666667rem;
+}
+section .itc .form {
+  position: relative;
+}
+section .itc .form textarea {
+  width: 14.93333333rem;
+  height: 5.12rem;
+  border: 1px solid #000;
+  margin-top: 0.21333333rem;
+}
+section .itc .form .ctrl input {
+  width: 4.26666667rem;
+  height: 1.49333333rem;
+  font-size: 0.68266667rem;
+  background-color: #ff9e30;
+  position: absolute;
+  color: #fff;
+  bottom: 0.21333333rem;
+  right: 0.21333333rem;
+}
+section .itc .ui-border-b {
+  position: relative;
+  height: 6.4rem;
+}
+section .itc .ui-border-b .userimg img {
+  position: absolute;
+  top: 0.85333333rem;
+  left: 0.21333333rem;
+  height: 1.49333333rem;
+  width: 1.49333333rem;
+  border-radius: 50%;
+}
+section .itc .name {
+  padding-right: 0.85333333rem;
+  font-size: 0.512rem;
+  float: right;
+  width: 12.37333333rem !important;
+}
+section .itc .name .username {
+  float: left;
+  width: auto;
+  color: blue;
+}
+section .itc .name .time {
+  float: right;
+  width: auto;
+}
+section .itc .content {
+  float: left;
+  padding-left: 1.49333333rem;
+  font-size: 0.512rem;
+  line-height: 0.85333333rem;
+}
+section .itc .content img {
+  width: 0.85333333rem;
+  height: 0.85333333rem;
+}

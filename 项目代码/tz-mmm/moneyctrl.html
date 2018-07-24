@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>省钱</title>
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/moneyurl.css">
+  <link href="fonts/iconfont.css" rel="stylesheet" type="text/css" />
+  <link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <!--[if IE 7]>
+  <link href="fonts/font-awesome-ie7.min.css" rel="stylesheet" type="text/css" />
+  <![endif]-->
+  <script src="js/common.js"></script>
+</head>
+<body>
+<!--头部开始-->
+<header class="public-header">
+  <a class="left fl" href="index.html">
+    <span class="word">省钱控 - 最新优惠</span>
+  </a>
+  <a class="right fr">
+    <img src="images/header_app.png">
+  </a>
+</header>
+<!--折扣开始-->
+<section class="mm-discount">
+  <!--<div class="head">-->
+    <!--<span>超值折扣推荐</span>-->
+    <!--<a href="#">-->
+      <!--<img src="images/rigth.png" class="fr">-->
+    <!--</a>-->
+  <!--</div>-->
+  <!--折扣模板-->
+
+</section>
+<!--折扣结束-->
+
+<!--分页开始-->
+<div class="mm-pagination">
+
+</div>
+<!--分页结束-->
+<!--底部开始-->
+<footer>
+  <div class="list">
+    <a href="#">登录</a>
+    <a href="#">注册</a>
+    <a href="#">
+      返回顶部
+    </a>
+  </div>
+  <p>
+    <span>手机APP下载</span>
+    <span>慢慢买手机版</span>
+    <span>--掌上比价平台</span>
+  </p>
+  <p>m.manmanbuy.com</p>
+</footer>
+<!--底部结束-->
+
+<!--折扣模板开始-->
+<script type="text/html" id="mm-discount">
+  {{each result  v i}}
+  <a class="content" href="moneyproduct.html?productid={{v.productId}}">
+    <div class="left fl">
+      {{@v.productImgLg?v.productImgLg:v.productImgSm}}
+    </div>
+    <div class="right">
+      <p>
+        <span>{{v.productName}}</span>
+        <span>{{v.productPinkage}}</span>
+      </p>
+      <p>
+        <span>{{v.productFrom}}丨{{v.productTime}}</span>
+        <span>
+          <i class="iconfont">&#xf0066;</i>
+          {{v.productComCount.replace("有","").replace("人评论","")}}
+        </span>
+      </p>
+    
+    </div>
+  </a>
+  {{/each}}
+</script>
+<!--折扣模板结束-->
+
+<!--分页开始-->
+<script type="text/html" id="mm-pagenation">
+  
+  <button class="mm-pre">上一页</button>
+  <select>
+    <% for(var i = 0; i < total; i++) { %>
+    {{if i==page}}
+    <option value="{{i+1}}" selected>{{i+1}}/{{total}}</option>
+    {{/if}}
+    <option value="{{i+1}}">{{i+1}}/{{ total }}</option>
+    <% } %>
+  </select>
+  <button class="mm-next">下一页</button>
+</script>
+
+<!--分页结束-->
+<!--引包-->
+<script src="./lib/jquery/jquery.min.js"></script>
+<script src="./lib/artTemplate/template-web.js"></script>
+<script src="./js/moneyctrl.js"></script>
+<script src="./js/public.js"></script>
+</body>
+</html>

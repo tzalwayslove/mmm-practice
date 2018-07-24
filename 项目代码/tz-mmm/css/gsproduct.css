@@ -1,0 +1,101 @@
+.public-header span {
+  color: #fff;
+  padding-left: 5.97333333rem;
+  line-height: 1.92rem;
+}
+nav {
+  background-color: #fff;
+}
+nav li {
+  float: left;
+  padding: 0.512rem 1.28rem;
+  font-size: 0.59733333rem;
+}
+nav li i {
+  font-size: 0.59733333rem !important;
+}
+.shopdown {
+  background-color: #fff;
+  display: none;
+  position: absolute;
+  top: 3.84rem;
+  left: 0;
+  width: 100%;
+}
+.shopdown ul {
+  list-style: none;
+}
+.shopdown ul li {
+  padding: 0.42666667rem;
+  font-size: 0.59733333rem;
+  position: relative;
+}
+.now::after {
+  content: '√';
+  font-size: 0.768rem;
+  display: block;
+  position: absolute;
+  right: 0.85333333rem;
+  top: 0.21333333rem;
+  color: red;
+}
+.up::after {
+  content: '&#xf016f';
+}
+.down::after {
+  content: '&#xf0170';
+}
+.area {
+  background-color: #fff;
+  display: none;
+  width: 100%;
+  position: absolute;
+  top: 3.84rem;
+  left: 0;
+}
+.area ul {
+  list-style: none;
+}
+.area ul li {
+  padding: 0.42666667rem;
+  font-size: 0.59733333rem;
+  position: relative;
+}
+section {
+  background-color: #f1f1f1;
+}
+section div {
+  background-color: #fff;
+  float: left;
+  width: 7.57333333rem;
+  height: 9.38666667rem;
+  margin: 0.64rem 0.21333333rem 0;
+  font-size: 0.512rem;
+}
+section div img {
+  width: 7.46666667rem;
+  height: 6.4rem;
+}
+section div p {
+  width: 7.25333333rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-top: 0.42666667rem;
+  margin-right: 0.21333333rem;
+  vertical-align: bottom;
+}
+section div p span {
+  font-size: 0.768rem;
+  color: orange;
+  vertical-align: bottom;
+}
+section div p button {
+  float: right;
+  vertical-align: bottom;
+  background-color: orange;
+  color: #fff;
+  width: 2.56rem;
+  height: 1.17333333rem;
+  font-size: 0.68266667rem;
+}

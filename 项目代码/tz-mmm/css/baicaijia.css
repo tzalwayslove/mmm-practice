@@ -1,0 +1,112 @@
+.public-header {
+  background-color: red;
+}
+/**nav**/
+nav {
+  height: 1.74933333rem;
+  background-color: #fff;
+  margin-bottom: 0.17066667rem;
+}
+.current {
+  color: red;
+  border-bottom: 3px solid red;
+}
+.wrapper {
+  overflow: hidden;
+  position: relative;
+}
+.wrapper ul li {
+  float: left;
+  font-size: 0.59733333rem;
+  line-height: 1.74933333rem;
+  width: 2.56rem;
+  text-align: center;
+}
+section .show {
+  height: 6.4rem;
+  background-color: #fff;
+  margin-bottom: 0.21333333rem;
+}
+section .show .left {
+  float: left;
+  width: 5.97333333rem;
+  padding: 0.21333333rem;
+}
+section .show .left img {
+  width: 5.54666667rem;
+  height: 5.54666667rem;
+  display: block;
+  margin: 0 auto;
+}
+section .show .right {
+  overflow: hidden;
+  padding: 0.21333333rem;
+}
+section .show .right p {
+  font-size: 0.68266667rem;
+}
+section .show .right p:nth-child(1) {
+  font-weight: bold;
+  padding-bottom: 0.21333333rem;
+}
+section .show .right p:nth-child(2) {
+  color: red;
+  font-style: normal;
+}
+section .show .right p:nth-child(2) del {
+  color: gray;
+  padding-left: 0.64rem;
+}
+section .show .right p:last-child {
+  font-size: 0.59733333rem;
+  padding-top: 0.42666667rem;
+}
+section .show .right p:last-child a:first-child {
+  border: 1px dashed red;
+  padding: 0.10666667rem;
+  color: red ;
+  margin-right: 1.06666667rem;
+}
+section .show .right p:last-child a:last-child {
+  background-color: red;
+  color: #fff;
+  height: 1.06666667rem;
+  width: 2.56rem;
+  line-height: 1.06666667rem;
+  text-align: center;
+  display: inline-block;
+}
+section .show .right .bar {
+  padding-top: 0.64rem;
+  font-size: 0.512rem;
+}
+section .show .right .bar i {
+  vertical-align: bottom;
+  margin-right: 0.64rem;
+  width: 3.54133333rem;
+  border: 4px solid red;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  background-color: #ffb7b7;
+  border-radius: 15%;
+  height: 0.55466667rem;
+  position: relative;
+}
+section .show .right .bar i em {
+  width: 2.56rem;
+  display: block;
+  background-color: red;
+  border-radius: 15%;
+  height: 0.55466667rem;
+}
+section .show .right .bar i span {
+  color: #fff;
+  position: absolute;
+  top: -14%;
+  left: 30%;
+}
+section .show .right .bar b {
+  vertical-align: bottom;
+  color: red;
+}

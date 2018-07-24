@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>category</title>
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/category.css">
+  <script src="js/common.js"></script>
+  <link href="fonts/iconfont.css" rel="stylesheet" type="text/css" />
+  <link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <!--[if IE 7]>
+  <link href="fonts/font-awesome-ie7.min.css" rel="stylesheet" type="text/css" />
+  <![endif]-->
+</head>
+<body style="background-color: #fff;">
+<!--头部开始-->
+<header class="public-header">
+  <a class="left fl" href="index.html">
+    <img src="images/header_logo.png">
+  </a>
+  <a class="right fr">
+    <img src="images/header_app.png">
+  </a>
+</header>
+<!--头部结束-->
+<!--搜索开始-->
+<div class="mmindex-search">
+  <input type="text" placeholder="请输入你想比价的商品">
+  <button class="fr">搜索</button>
+</div>
+<!--搜索结束-->
+
+<!--折叠层开始-->
+<div class="mm-catetog">
+<!--模板渲染-->
+
+</div>
+<!--折叠层结束-->
+
+
+<!--底部开始-->
+<footer>
+  <div class="list">
+    <a href="#">登录</a>
+    <a href="#">注册</a>
+    <a href="#">
+      返回顶部
+    </a>
+  </div>
+  <p>
+    <span>手机APP下载</span>
+    <span>慢慢买手机版</span>
+    <span>--掌上比价平台</span>
+  </p>
+  <p>m.manmanbuy.com</p>
+</footer>
+<!--底部结束-->
+
+
+<!--模板渲染开始-->
+<script type="text/html" id="mm-cateP">
+  {{each result as v i }}
+  <div data-id="{{v.titleId}}" class="mm-toggle">
+    <p>
+      <span>{{v.title}}</span>
+      <i class="iconfont fr">&#xf0170</i>
+    </p>
+
+    <ul class="clearfix mm-clearfix" style="display: none"></ul>
+  </div>
+  {{/each}}
+</script>
+
+<!--模板渲染结束-->
+<!--模板渲染开始-->
+  <script type="text/html" id="mm-cateUl">
+    {{each result as v i }}
+        <li>
+          <a href="productlist.html?categoryid={{v.categoryId}}">{{v.category}}</a>
+        </li>
+    {{/each}}
+  </script>
+<!--模板渲染结束-->
+<!--引包-->
+<script src="./lib/artTemplate/template.js"></script>
+<script src="./lib/jquery/jquery.min.js"></script>
+<script src="./js/public.js"></script>
+<script src="./js/category.js"></script>
+</body>
+</html>

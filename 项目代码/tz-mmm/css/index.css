@@ -1,0 +1,162 @@
+/**搜索开始**/
+.mmindex-search {
+  height: 2.13333333rem;
+  width: 100%;
+  background-color: #fff;
+}
+.mmindex-search input {
+  width: 12.16rem;
+  height: 1.28rem;
+  border-radius: 0.42666667rem;
+  background-color: #f1f1f1;
+  outline: none;
+  border: 1px solid #f1f1f1;
+  box-sizing: border-box;
+  margin: 0.42666667rem 0 0 0.42666667rem;
+  font-size: 0.55466667rem;
+  padding-left: 0.85333333rem;
+}
+.mmindex-search input::placeholder {
+  color: #777;
+}
+.mmindex-search button {
+  width: 2.77333333rem;
+  height: 1.28rem;
+  background-color: #ff9e30;
+  border: none;
+  border-radius: 0.53333333rem;
+  margin: 0.42666667rem 0.42666667rem 0 0;
+  outline: none;
+  font-size: 0.55466667rem;
+  color: #fff;
+}
+/**搜索结束**/
+/**菜单栏开始**/
+.mmindex-menu {
+  background-color: #fff;
+  margin-top: 0.42666667rem;
+  padding: 1.024rem 0.21333333rem 0;
+}
+.mmindex-menu a {
+  display: block;
+  width: 2.176rem;
+  height: 2.98666667rem;
+  padding: 0 0.81066667rem 0.512rem;
+  box-sizing: content-box;
+  text-decoration: none;
+  color: #000;
+}
+.mmindex-menu a img {
+  width: 2.13333333rem;
+  height: 2.13333333rem;
+}
+.mmindex-menu a p {
+  font-size: 0.46933333rem;
+  text-align: center;
+}
+/**菜单栏结束**/
+/**折扣开始**/
+.mm-discount {
+  margin-top: 0.21333333rem;
+}
+.mm-discount .head {
+  background-color: #ff9e30;
+  height: 1.49333333rem;
+}
+.mm-discount .head span:first-child {
+  padding-left: 0.46933333rem;
+  color: #fff;
+  font-size: 0.46933333rem;
+  line-height: 1.49333333rem;
+}
+.mm-discount .head img:first-child {
+  width: 0.93866667rem;
+  height: 0.93866667rem;
+  margin: 0.34133333rem 0.42666667rem 0 0;
+}
+.mm-discount .content {
+  display: block;
+  text-decoration: none;
+  height: 5.41866667rem;
+  background-color: #fff;
+  margin-bottom: 0.08533333rem;
+  position: relative;
+}
+.mm-discount .content .left {
+  width: 5.03466667rem;
+  height: 100%;
+  box-sizing: border-box;
+}
+.mm-discount .content .left img {
+  width: 80%;
+  height: 80%;
+  padding: 0.42666667rem;
+}
+.mm-discount .content .right {
+  overflow: hidden;
+}
+.mm-discount .content .right p:nth-child(1) {
+  margin-top: 0.72533333rem;
+  font-size: 0.68266667rem;
+  color: #000;
+}
+.mm-discount .content .right p:nth-child(1) span:last-child {
+  color: #ff9e30;
+}
+.mm-discount .content .right p:last-child {
+  position: absolute;
+  bottom: 0.85333333rem;
+  font-size: 0.512rem;
+  color: #ccc;
+  width: 10.66666667rem;
+}
+.mm-discount .content .right p:last-child span:last-child {
+  position: absolute;
+  bottom: 0rem;
+  right: 0rem;
+}
+.mm-discount .content .right p:last-child span:last-child i {
+  font-size: 0.512rem;
+}
+/**折扣结束**/
+/**更多折扣信息开始**/
+.mm-more {
+  text-align: center;
+  background-color: #fff;
+  height: 1.92rem;
+  width: 100%;
+  overflow: hidden;
+}
+.mm-more a {
+  display: block;
+  height: 1.28rem;
+  width: 15.12533333rem;
+  color: #000;
+  text-decoration: none;
+  font-size: 0.512rem;
+  line-height: 1.28rem;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  margin: 0.21333333rem auto;
+}
+/**更多折扣信息结束**/
+/**折扣开始**/
+.mm-rank {
+  margin-top: 0.21333333rem;
+}
+.mm-rank .head {
+  background-color: #ff9e30;
+  height: 1.49333333rem;
+}
+.mm-rank .head span:first-child {
+  padding-left: 0.46933333rem;
+  color: #fff;
+  font-size: 0.46933333rem;
+  line-height: 1.49333333rem;
+}
+.mm-rank .head img:first-child {
+  width: 0.93866667rem;
+  height: 0.93866667rem;
+  margin: 0.34133333rem 0.42666667rem 0 0;
+}
+/**折扣结束**/

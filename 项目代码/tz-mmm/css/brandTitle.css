@@ -1,0 +1,43 @@
+.top {
+  height: 1.49333333rem;
+  background-color: #eee;
+  border: 1px solid #aaa;
+}
+.top ul {
+  padding-left: 0.42666667rem;
+}
+.top ul li {
+  float: left;
+  font-size: 0.512rem;
+  padding-right: 0.42666667rem;
+  line-height: 1.49333333rem;
+}
+.rank {
+  margin-bottom: 0.85333333rem;
+  height: 1.49333333rem;
+  background-color: #eee;
+  border: 1px solid #aaa;
+  color: #ff9e30;
+  text-align: center;
+  font-size: 0.68266667rem;
+  line-height: 1.49333333rem;
+}
+section ul li {
+  background-color: #eee;
+  border: 1px solid #aaa;
+}
+section ul a {
+  width: 90%;
+  float: left;
+  display: block;
+  font-size: 0.68266667rem;
+  height: 1.57866667rem;
+  line-height: 1.57866667rem;
+}
+section ul i {
+  float: right;
+  height: 1.57866667rem;
+  font-size: 0.68266667rem !important;
+  margin-right: 0.42666667rem;
+  line-height: 1.57866667rem;
+}

@@ -1,0 +1,28 @@
+.mm-pagination {
+  height: 1.70666667rem;
+  padding-top: 0.21333333rem;
+  border-top: 0.21333333rem solid #f1f1f1;
+}
+.mm-pagination button {
+  height: 1.28rem;
+  width: 3.54133333rem;
+  font-size: 0.68266667rem;
+}
+.mm-pagination button:first-child {
+  margin-left: 0.85333333rem;
+  float: left;
+}
+.mm-pagination button:last-child {
+  float: right;
+  margin-right: 0.85333333rem;
+}
+.mm-pagination select {
+  width: 2.56rem;
+  height: 1.28rem;
+  float: left;
+  margin-left: 1.70666667rem;
+  font-size: 0.59733333rem;
+  box-sizing: border-box;
+  text-align: center;
+  padding-left: 0.17066667rem;
+}

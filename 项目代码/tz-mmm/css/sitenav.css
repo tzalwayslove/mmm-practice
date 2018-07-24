@@ -1,0 +1,22 @@
+.public-header span {
+  color: #fff;
+  padding-left: 5.97333333rem;
+  line-height: 1.92rem;
+}
+section {
+  background-color: #fff;
+  padding: 0.85333333rem 0.42666667rem;
+}
+section a {
+  display: inline-block;
+  background-color: #f1f1f1;
+  padding: 0.21333333rem 0.08533333rem;
+  border: 1px solid #000;
+  margin: 0.42666667rem 0.21333333rem;
+  font-size: 0.59733333rem;
+}
+section a img {
+  width: 0.68266667rem;
+  height: 0.68266667rem;
+  vertical-align: bottom;
+}

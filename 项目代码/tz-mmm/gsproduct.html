@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>首页</title>
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/gsproduct.css">
+  <link href="fonts/iconfont.css" rel="stylesheet" type="text/css" />
+  <link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <!--[if IE 7]>
+  <link href="fonts/font-awesome-ie7.min.css" rel="stylesheet" type="text/css" />
+  <![endif]-->
+  <script src="js/common.js"></script>
+</head>
+<body>
+<!--头部开始-->
+<header class="public-header">
+  <a class="left fl" href="index.html">
+    <span>凑单品</span>
+  </a>
+  <a class="right fr">
+    <img src="images/header_app.png">
+  </a>
+</header>
+<!--头部结束-->
+<!--nav-->
+<nav class="clearfix">
+  <ul>
+    <li class="shop">
+      <span>京东</span>
+      <i class="iconfont" style="display: inline-block">&#xf0170</i>
+      <i class="iconfont" style="display: none">&#xf016f</i>
+    </li>
+    <li class="add">
+      <span>华北</span>
+      <i class="iconfont" style="display: inline-block">&#xf0170</i>
+      <i class="iconfont" style="display: none">&#xf016f</i>
+    </li>
+    <li>
+      <span>全部价格</span>
+    </li>
+  </ul>
+</nav>
+
+<!--商店内容-->
+<div class="shopdown">
+  <ul>
+  
+  </ul>
+</div>
+
+
+<!--地址内容-->
+<div class="area">
+  <ul>
+  
+  </ul>
+</div>
+
+
+
+<section class="clearfix">
+
+</section>
+
+
+
+
+
+
+<!--模板-->
+<script type="text/html" id="gs">
+  
+  {{each result v i}}
+    <li data-id="{{v.shopId}}">
+      {{v.shopName}}
+    </li>
+  {{/each}}
+  
+</script>
+
+<script type="text/html" id="hb">
+  
+  {{each result v i}}
+  <li data-id={{v.areaId}}>
+    {{v.areaName}}
+  </li>
+  {{/each}}
+
+</script>
+
+
+<script type="text/html" id="co">
+  {{each result v i}}
+    <div class="product">
+      <img src="{{v.productImg}}" >
+      <p>{{v.productName}}</p>
+      <p>
+        <span>{{v.productPrice}}</span>
+        <button>去剁手</button>
+      </p>
+    </div>
+  
+  {{/each}}
+</script>
+
+<!--底部开始-->
+<footer>
+  <div class="list">
+    <a href="#">登录</a>
+    <a href="#">注册</a>
+    <a href="#">
+      返回顶部
+    </a>
+  </div>
+  <p>
+    <span>手机APP下载</span>
+    <span>慢慢买手机版</span>
+    <span>--掌上比价平台</span>
+  </p>
+  <p>m.manmanbuy.com</p>
+</footer>
+<!--底部结束-->
+<!--引包-->
+<script src="./lib/jquery/jquery.min.js"></script>
+<script src="./lib/artTemplate/template-web.js"></script>
+<script src="./js/gsproduct.js"></script>
+<script src="./js/public.js"></script>
+</body>
+</html>

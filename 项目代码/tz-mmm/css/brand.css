@@ -1,0 +1,147 @@
+.white {
+  background-color: #fff;
+}
+.white li {
+  padding-top: 0.42666667rem;
+  box-sizing: border-box;
+  height: 2.77333333rem;
+  margin-bottom: 0.08533333rem;
+  font-size: 0.59733333rem;
+  vertical-align: middle;
+  border-bottom: 2px solid #ccc;
+}
+.white li:nth-child(1) .left {
+  background-color: red;
+}
+.white li:nth-child(2) .left {
+  background-color: #ff9e30;
+}
+.white li:nth-child(3) .left {
+  background-color: green;
+}
+.white .left {
+  float: left;
+  width: 1.28rem;
+  height: 1.28rem;
+  text-align: center;
+  color: #fff;
+  background-color: #c9c9c8;
+  font-size: 0.68266667rem;
+  line-height: 1.28rem;
+  box-sizing: border-box;
+  margin-left: 0.29866667rem;
+  margin-top: 0.128rem;
+}
+.white .right {
+  overflow: hidden;
+  padding-left: 0.34133333rem;
+}
+.white .right p {
+  float: left;
+  width: 88%;
+}
+.white .right p:first-child {
+  font-size: 0.68266667rem;
+  font-weight: blod;
+}
+.white .right p:nth-child(2) {
+  font-size: 0.59733333rem;
+  color: gray;
+  margin-top: 0.34133333rem;
+}
+.white .right i {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0.68266667rem !important;
+  margin-top: 0.42666667rem;
+}
+.content {
+  height: 4.90666667rem;
+  background-color: #fff;
+  font-size: 0.59733333rem;
+  margin-bottom: 0.08533333rem;
+}
+.content .left {
+  float: left;
+  width: 4.90666667rem;
+  padding: 0.384rem;
+}
+.content .left img {
+  width: 4.48rem;
+  height: 3.84rem;
+}
+.content .right {
+  overflow: hidden;
+  height: 100%;
+}
+.content .right h4 {
+  padding-top: 0.64rem;
+}
+.content .right p {
+  padding-top: 0.42666667rem;
+  color: red;
+}
+.content .right div {
+  padding-top: 0.42666667rem;
+}
+.content .right div span {
+  font-size: 0.512rem;
+  color: #777777;
+}
+.rank1 {
+  margin-bottom: 0.85333333rem;
+  height: 1.49333333rem;
+  background-color: #eee;
+  border: 1px solid #aaa;
+  color: #ff9e30;
+  text-align: center;
+  font-size: 0.68266667rem;
+  line-height: 1.49333333rem;
+}
+.rank2 {
+  margin-bottom: 0.85333333rem;
+  height: 1.49333333rem;
+  background-color: #eee;
+  border: 1px solid #aaa;
+  color: #ff9e30;
+  text-align: center;
+  font-size: 0.68266667rem;
+  line-height: 1.49333333rem;
+}
+.comtop {
+  height: 4.992rem;
+  background-color: #fff;
+  border-bottom: 1px solid #000;
+}
+.comtop .fl {
+  width: 4.90666667rem;
+  height: 4.26666667rem;
+  padding: 0.32rem;
+}
+.comtop .fl img {
+  width: 4.26666667rem;
+  height: 3.84rem;
+}
+.comtop .fr {
+  padding-top: 0.85333333rem;
+  font-size: 0.512rem;
+  color: #777777;
+  width: 10.02666667rem;
+}
+.comdown {
+  padding: 0.42666667rem;
+  border-bottom: 1px solid #000;
+  background-color: #fff;
+}
+.comdown .grtop {
+  font-size: 0.512rem;
+  color: #ccc;
+  margin-bottom: 0.42666667rem;
+}
+.comdown .grtop span:last-child {
+  float: right;
+}
+.comdown .bb {
+  color: red;
+  font-size: 0.512rem;
+}

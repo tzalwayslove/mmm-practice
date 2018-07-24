@@ -1,0 +1,14 @@
+.public-header {
+  background-color: red;
+}
+.public-header .word {
+  padding-left: 5.97333333rem;
+}
+section {
+  background-color: #fff;
+}
+section li {
+  float: left;
+  margin: 0.21333333rem 0.34133333rem;
+  font-size: 0.59733333rem;
+}

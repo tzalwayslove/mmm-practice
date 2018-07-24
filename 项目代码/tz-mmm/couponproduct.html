@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>优惠卷详情</title>
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/coupon.css">
+  <link rel="stylesheet" href="css/couponproduct.css">
+  <link href="fonts/iconfont.css" rel="stylesheet" type="text/css" />
+  <link href="fonts/font-awesome.min.css" rel=stylesheet" type="text/css" />
+  <!--[if IE 7]>
+  <link href="fonts/font-awesome-ie7.min.css" rel="stylesheet" type="text/css" />
+  <![endif]-->
+  <script src="js/common.js"></script>
+</head>
+<body>
+<!--头部开始-->
+<header class="public-header">
+  <a class="left fl" href="index.html">
+    <span class="word">优惠卷</span>
+  </a>
+  <a class="right fr">
+    <img src="images/header_app.png">
+  </a>
+</header>
+
+<!--内容-->
+<section class="se">
+  <h3>-点餐前出示优惠卷,即可享受优惠-</h3>
+</section>
+
+
+
+<!--模态框-->
+<div class="jump" style="display: none">
+  <img>
+  <i class="iconfont left">&#xf016e</i>
+  <i class="iconfont right">&#xf016d</i>
+   <i class="close iconfont">&#xf00b3</i>
+  <button class="btn"> GO</button>
+</div>
+<!--模板-->
+<script type="text/html" id="mm-con">
+  {{each result v i}}
+    <div class="mm-haha" data-id={{i}}>
+      <div class="left">
+        {{@v.couponProductImg}}
+      </div>
+      <div class="right">
+        <p>{{v.couponProductName}}</p>
+        <p>{{v.couponProductPrice}}</p>
+        <p class="price">{{v.couponProductTime}}</p>
+      </div>
+    </div>
+  {{/each}}
+</script>
+
+
+<!--底部开始-->
+<footer>
+  <div class="list">
+    <a href="#">登录</a>
+    <a href="#">注册</a>
+    <a href="#">
+      返回顶部
+    </a>
+  </div>
+  <p>
+    <span>手机APP下载</span>
+    <span>慢慢买手机版</span>
+    <span>--掌上比价平台</span>
+  </p>
+  <p>m.manmanbuy.com</p>
+</footer>
+<!--底部结束-->
+
+<!--引包-->
+<script src="./lib/jquery/jquery.min.js"></script>
+<script src="./lib/artTemplate/template-web.js"></script>
+<script src="./js/couponproduct.js"></script>
+<script src="./js/public.js"></script>
+</body>
+</html>
